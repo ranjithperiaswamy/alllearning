@@ -1,6 +1,5 @@
-mylist=['Hello World']
+st = 'Hello World'
 
-for x in mylist:
-    print(x)
+mylist = list(st)
 
-print(list(x+x for x in mylist))
+print(list(map(lambda x: x+'u', mylist)))
